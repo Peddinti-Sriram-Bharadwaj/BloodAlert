@@ -31,7 +31,7 @@ class BloodAlert extends StatelessWidget {
                     decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(10.0)),
-                    child: Center(child: Text('This is box 1')),
+                    child: Center(child: Text('Request for Blood')),
                   ),
                   onTap: () {},
                 )),
@@ -46,7 +46,7 @@ class BloodAlert extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10.0)),
                       child: Center(
                           child: Text(
-                        'This is box 2',
+                        'become a blood donor',
                       ))),
                   onTap: () {},
                 ))

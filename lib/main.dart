@@ -31,6 +31,7 @@ class Mainpage extends StatelessWidget {
               Material(
                 elevation: 30,
                 child: InkWell(
+                  autofocus: true,
                   child: Ink(
                     height: 100,
                     width: 170,
@@ -51,6 +52,7 @@ class Mainpage extends StatelessWidget {
               Material(
                 elevation: 20,
                 child: InkWell(
+                  autofocus: true,
                   child: Ink(
                     height: 100,
                     width: 170,

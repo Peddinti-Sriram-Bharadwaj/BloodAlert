@@ -76,10 +76,10 @@ class _Areas extends State<Areas> {
       value: dropdownValue,
       icon: const Icon(Icons.arrow_downward),
       elevation: 16,
-      style: const TextStyle(color: Colors.deepPurple),
+      style: const TextStyle(color: Colors.brown),
       underline: Container(
         height: 2,
-        color: Colors.deepPurpleAccent,
+        color: Colors.brown,
       ),
       onChanged: (String? value) {
         // This is called when the user selects an item.

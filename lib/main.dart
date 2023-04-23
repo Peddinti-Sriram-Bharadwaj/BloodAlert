@@ -1,8 +1,25 @@
 import 'package:flutter/material.dart';
 import 'alertpage.dart';
 import 'registerpage.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-void main() {
+Future<void> initializeFirebase() async {
+  try {
+    await Firebase.initializeApp(
+      options: DefaultFirebaseOptions.currentPlatform,
+    );
+  } catch (e) {
+    print('error firebase not initialized');
+    // Handle the error accordingly, e.g., show an error message or take appropriate action.
+  }
+}
+
+
+
+Future<void> main()  async{
+
+  await initializeFirebase();
   runApp(const MaterialApp(
     title: 'landing page',
     home: Mainpage(),

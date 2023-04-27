@@ -1,6 +1,6 @@
 # blood_alert
 
-A new Flutter project.
+this branch doesn't have a database
 
 ## Getting Started
 

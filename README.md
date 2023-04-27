@@ -1,6 +1,6 @@
 # blood_alert
 
-This branch has cloud firestore as it's database
+This branch has realtimedatabase as it's database
 
 ## Getting Started
 

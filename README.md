@@ -1,6 +1,6 @@
 # blood_alert
 
-A new Flutter project.
+this branch has cloud firestore as it's database
 
 ## Getting Started
 

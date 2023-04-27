@@ -15,10 +15,8 @@ Future<void> initializeFirebase() async {
   }
 }
 
-
-
-Future<void> main()  async{
-
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await initializeFirebase();
   runApp(const MaterialApp(
     title: 'landing page',

@@ -1,41 +1,35 @@
 {
   "project_info": {
-    "project_number": "693560897326",
-    "project_id": "bloodalert-190db",
-    "storage_bucket": "bloodalert-190db.appspot.com"
+    "project_number": "744653600839",
+    "firebase_url": "https://bloodalert-3ce3b-default-rtdb.firebaseio.com",
+    "project_id": "bloodalert-3ce3b",
+    "storage_bucket": "bloodalert-3ce3b.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:693560897326:android:6de3e1e31674668fdf14bf",
+        "mobilesdk_app_id": "1:744653600839:android:420bc50ca5d3dcad539962",
         "android_client_info": {
           "package_name": "com.example.blood_alert"
         }
       },
       "oauth_client": [
         {
-          "client_id": "693560897326-k7cvf0e3pc07u95alvgn9094b0249dvh.apps.googleusercontent.com",
+          "client_id": "744653600839-g030coqeee6bbd14br547d4dvh2i1669.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBJ9cNb3StruuMF-ys7EdEgx7PSuqtNwzE"
+          "current_key": "AIzaSyBMKjccBnKteNP5ORHCU5V2DIZHwAutkeQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "693560897326-k7cvf0e3pc07u95alvgn9094b0249dvh.apps.googleusercontent.com",
+              "client_id": "744653600839-g030coqeee6bbd14br547d4dvh2i1669.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "693560897326-b4siqlvk8cm969551ddmi81gep84n0ga.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.example.bloodAlert"
-              }
             }
           ]
         }

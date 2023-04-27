@@ -44,40 +44,43 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyAu7zDpQpW7pEgG9uHxoSwDl7aQXV_2drs',
-    appId: '1:693560897326:web:f2514a66053d8b11df14bf',
-    messagingSenderId: '693560897326',
-    projectId: 'bloodalert-190db',
-    authDomain: 'bloodalert-190db.firebaseapp.com',
-    storageBucket: 'bloodalert-190db.appspot.com',
-    measurementId: 'G-MNCQNBDS8G',
+    apiKey: 'AIzaSyCQl4XSF88a2qBjFg_RydDFxIBSo0oqUzU',
+    appId: '1:744653600839:web:2840f06ab3405616539962',
+    messagingSenderId: '744653600839',
+    projectId: 'bloodalert-3ce3b',
+    authDomain: 'bloodalert-3ce3b.firebaseapp.com',
+    databaseURL: 'https://bloodalert-3ce3b-default-rtdb.firebaseio.com',
+    storageBucket: 'bloodalert-3ce3b.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBJ9cNb3StruuMF-ys7EdEgx7PSuqtNwzE',
-    appId: '1:693560897326:android:6de3e1e31674668fdf14bf',
-    messagingSenderId: '693560897326',
-    projectId: 'bloodalert-190db',
-    storageBucket: 'bloodalert-190db.appspot.com',
+    apiKey: 'AIzaSyBMKjccBnKteNP5ORHCU5V2DIZHwAutkeQ',
+    appId: '1:744653600839:android:420bc50ca5d3dcad539962',
+    messagingSenderId: '744653600839',
+    projectId: 'bloodalert-3ce3b',
+    databaseURL: 'https://bloodalert-3ce3b-default-rtdb.firebaseio.com',
+    storageBucket: 'bloodalert-3ce3b.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDf2mWBo8wkjelQupOcGITG4-i0572j2M0',
-    appId: '1:693560897326:ios:c7c5e30e5c70759fdf14bf',
-    messagingSenderId: '693560897326',
-    projectId: 'bloodalert-190db',
-    storageBucket: 'bloodalert-190db.appspot.com',
-    iosClientId: '693560897326-b4siqlvk8cm969551ddmi81gep84n0ga.apps.googleusercontent.com',
+    apiKey: 'AIzaSyA_vguAI6PurL0FZ4tV4F6DNF46ON8zeNs',
+    appId: '1:744653600839:ios:853cd04cb9aa2dd3539962',
+    messagingSenderId: '744653600839',
+    projectId: 'bloodalert-3ce3b',
+    databaseURL: 'https://bloodalert-3ce3b-default-rtdb.firebaseio.com',
+    storageBucket: 'bloodalert-3ce3b.appspot.com',
+    iosClientId: '744653600839-ue1stn9v20rrfcugs2k8nkgb7a9570nu.apps.googleusercontent.com',
     iosBundleId: 'com.example.bloodAlert',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDf2mWBo8wkjelQupOcGITG4-i0572j2M0',
-    appId: '1:693560897326:ios:c7c5e30e5c70759fdf14bf',
-    messagingSenderId: '693560897326',
-    projectId: 'bloodalert-190db',
-    storageBucket: 'bloodalert-190db.appspot.com',
-    iosClientId: '693560897326-b4siqlvk8cm969551ddmi81gep84n0ga.apps.googleusercontent.com',
+    apiKey: 'AIzaSyA_vguAI6PurL0FZ4tV4F6DNF46ON8zeNs',
+    appId: '1:744653600839:ios:853cd04cb9aa2dd3539962',
+    messagingSenderId: '744653600839',
+    projectId: 'bloodalert-3ce3b',
+    databaseURL: 'https://bloodalert-3ce3b-default-rtdb.firebaseio.com',
+    storageBucket: 'bloodalert-3ce3b.appspot.com',
+    iosClientId: '744653600839-ue1stn9v20rrfcugs2k8nkgb7a9570nu.apps.googleusercontent.com',
     iosBundleId: 'com.example.bloodAlert',
   );
 }

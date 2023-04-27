@@ -1,3 +1,5 @@
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -5,6 +7,8 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    DatabaseReference users =
+        FirebaseDatabase.instance.reference().child("users");
     return MaterialApp(
         title: 'New user registration',
         home: Scaffold(
@@ -29,6 +33,24 @@ class RegisterPage extends StatelessWidget {
               ),
               Text('Select the availible area  '),
               Areas(),
+              Material(
+                elevation: 20,
+                child: InkWell(
+                    child: Ink(
+                      height: 30,
+                      width: 150,
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(10.0),
+                      ),
+                      child: Center(
+                        child: Text('submit'),
+                      ),
+                    ),
+                    onTap: () {
+                      users.set('new user added');
+                    }),
+              ),
               Material(
                 elevation: 20,
                 child: InkWell(
